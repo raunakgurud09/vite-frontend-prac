@@ -29,11 +29,11 @@ export default function Hero() {
           <div className='group-hover:pl-1 transition-all'><ArrowRight size={20} /></div>
         </motion.div>
 
-        <motion.h3 variants={FRAMER_MOTION_UP} className='text-6xl font-semibold font-sans my-4 uppercase'>
-          style animation with
+        <motion.h3 variants={FRAMER_MOTION_UP} className='text-4xl sm:text-5xl md:text-6xl font-semibold font-sans my-4 uppercase'>
+          style animation with  
           <span className='block selection:bg-emerald-700 selection:text-white bg-gradient-to-r from-emerald-300 via-emerald-900 to-emerald-300 bg-clip-text text-transparent'>framer motion</span>
         </motion.h3>
-        <motion.p variants={FRAMER_MOTION_UP} className='text-sm'>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat inventore excepturi ipsum cupiditate sunt fuga sapiente error natus recusandae corporis? consectetur adipisicing elit. Magnam sapiente sequi vel delectus nobis rem, modi temporibus. Doloribus tempore et ullam voluptas alias iure libero dolorem perspiciatis tempora, nesciunt ad.</motion.p>
+        <motion.p variants={FRAMER_MOTION_UP} className='text-sm'>Lorem ipsum dolor sit  rem, modi temporibus. Doloribus tempore et ullam voluptas alias iure libero dolorem perspiciatis tempora, nesciunt ad.</motion.p>
       </motion.div>
     </div>
   )
