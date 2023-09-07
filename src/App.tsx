@@ -1,5 +1,6 @@
 import './App.css'
 import Cards from './components/Cards'
+import Navbar from './components/Common/Navbar'
 import TypeWriter from './components/TypeWriter'
 import Animation from './components/animation'
 
@@ -27,14 +28,10 @@ function App() {
   return (
     <div className='w-full overflow-x-hidden  mx-auto max-w-full h-screen'>
 
+      <Navbar />
 
-      {/* <TypeWriter /> */}
       <Animation />
-      <Cards />
-      <div className="h-screen"></div>
-      {/* <Other /> */}
-      {/* <CardContainer /> */}
-      {/* <GridLines /> */}
+
     </div>
   )
 }
