@@ -1,7 +1,7 @@
 
 interface Props {
-  top: number
-  side: string
+  top?: number
+  side?: string
 }
 export default function Background({ top = 80, side = "right" }: Props) {
   return (
