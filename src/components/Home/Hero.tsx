@@ -21,7 +21,7 @@ export default function Hero() {
           },
         }}
         viewport={{ once: true, amount: 0.25 }}
-        className='h-screen max-w-3xl mx-auto flex flex-col text-center items-center justify-center'>
+        className='my-60   max-w-3xl mx-auto flex flex-col text-center items-center justify-center'>
 
         <motion.div variants={FRAMER_MOTION_UP_LATE} className='group hover:cursor-pointer flex justify-center items-center px-2 py-2 border border-white/[0.1] rounded-full'>
           <div className='text-emerald-500 text-xs px-2 py-1 font-semibold rounded-full border-[1px] bg-emerald-400/10 border-emerald-600'>Explore</div>

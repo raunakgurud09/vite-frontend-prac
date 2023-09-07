@@ -6,7 +6,7 @@ import Background from "../Background";
 export default function Features() {
   return (
     <>
-      <Background />
+      <Background top={0} side={"left"} />
       <motion.div
         className="w-full grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
         variants={FRAMER_MOTION_CONTAINER}

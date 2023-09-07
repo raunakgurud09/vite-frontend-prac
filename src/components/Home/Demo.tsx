@@ -4,7 +4,7 @@ import { FRAMER_MOTION_CONTAINER } from '../../lib'
 
 export default function Demo() {
   return (
-    <div className='h-screen'>
+    <div className='my-40'>
       <div
         className="flex flex-col-reverse md:flex-row justify-between" >
         <motion.div
