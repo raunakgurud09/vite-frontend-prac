@@ -13,6 +13,53 @@ export const FRAMER_MOTION_UP_LATE = {
   show: { opacity: 1, y: 0, transition: { duration: 0.8, type: "ease" } },
 };
 
+export const FRAMER_MOTION_CONTAINER = {
+  show: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  }
+};
+
+export const FRAMER_MOTION_ITEM = {
+  hidden: { opacity: 0, y: 20 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeInOut',
+      duration: .2
+    }
+  }
+}
+
+const FRAMER_MOTION_UP_TWO = {
+  hidden: { opacity: 0, y: 200 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: 'easeInOut',
+      duration: .4
+    }
+  }
+}
+
+
+export const FRAMER_MOTION_SIDE  = {
+  hidden: { opacity: 0, x: -200 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      ease: 'easeInOut',
+      duration: .2
+    }
+  }
+}
+
+
+
 export const STAGGER_CHILD_VARIANTS = {
   hidden: { opacity: 0, y: 20 },
   show: { opacity: 1, y: 0, transition: { duration: 0.4, type: "spring" } },
