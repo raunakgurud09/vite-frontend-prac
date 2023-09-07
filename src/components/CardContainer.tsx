@@ -1,4 +1,4 @@
-import { Suspense, useState } from "react"
+import { Suspense } from "react"
 import Background from "./GridLines"
 import { createResource } from "./PromiseAPI"
 
@@ -17,13 +17,12 @@ export default function CardContainer() {
 
 const Card = ({ profile }: { profile: any }) => {
 
-  const person = profile.person.read()
   return (
     <>
       <Background />
       <Suspense fallback={<CardSkeleton />}>
         <div className="w-56 h-60 bg-white/50 rounded-md">
-
+          {profile}
         </div>
       </Suspense>
     </>

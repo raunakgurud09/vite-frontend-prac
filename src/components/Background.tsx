@@ -1,5 +1,9 @@
 
-export default function Background({ top = 80, side = "right" }: any) {
+interface Props {
+  top: number
+  side: string
+}
+export default function Background({ top = 80, side = "right" }: Props) {
   return (
     <div className="relative">
       <div className="absolute top-0 left-0 right-0">

@@ -33,7 +33,7 @@ export const FRAMER_MOTION_ITEM = {
   }
 }
 
-const FRAMER_MOTION_UP_TWO = {
+export const FRAMER_MOTION_UP_TWO = {
   hidden: { opacity: 0, y: 200 },
   show: {
     opacity: 1,

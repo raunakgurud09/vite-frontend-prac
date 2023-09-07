@@ -1,7 +1,7 @@
 import "./grid.css"
 
 export default function Background() {
-  let segment = true;
+  const segment = true;
   // try {
   //   segment = useSelectedLayoutSegment();
   // } catch (e) {

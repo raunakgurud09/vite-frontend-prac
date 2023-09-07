@@ -12,7 +12,7 @@ const wrapPromise = (promise) => {
     result = r
   }, err => {
     status = 'error'
-    result = e
+    result = err
   })
 
   return {
